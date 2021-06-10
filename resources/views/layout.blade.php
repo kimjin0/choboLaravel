@@ -27,5 +27,9 @@
             <li><a href="/data">자료실</a></li>
         </ul>
         @yield('content')
+        @section('lifeSeqNo')
+            나의 생명번호는 ....
+            
+        @show
     </body>
 </html>

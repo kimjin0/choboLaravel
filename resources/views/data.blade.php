@@ -12,3 +12,8 @@
        @endforeach
     </ul>
 @endsection
+
+@section('lifeSeqNo')
+    @parent
+    <p>134053</p>
+@endsection
